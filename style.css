@@ -1,0 +1,121 @@
+/*
+.dark-primary-color    { background: #00796B; }
+.default-primary-color { background: #009688; }
+.light-primary-color   { background: #B2DFDB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5722; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+*/
+* {
+  background-color: #00796B;
+  color: #FFFFFF;
+  font-family: Tahoma;
+  margin: 0;
+  text-align: center;
+}
+
+/* Navgigation Menu */
+nav {
+  background-color: #009688;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.site-logo {
+  color: #212121;
+  background-color: #009688;
+  padding: 5px 30px;
+}
+
+#menu-icon {
+  width: 33px;
+  background-color: #009688;
+}
+
+.hamburger {
+  margin: 5px 10px 0px 0px;
+  background-color: #009688;
+  border: none;
+  display: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.nav-ul {
+  background-color: #009688;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-page {
+  display: flex;
+  background-color: #009688;
+  padding: 5px 30px;
+}
+
+.nav-page a {
+  background-color: #009688;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#nav-accent {
+  border: 2px solid #BDBDBD;
+}
+
+.main-heading {
+  margin: 20px 0px;
+}
+
+input {
+  border: 1px solid #FF5722;
+  background-color: #B2DFDB;
+  color: #212121;
+  margin: 5px;
+}
+
+.submit-button {
+  font-family: arial black;
+}
+
+#fatpercentagecss {
+  color: #212121;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+}
+
+.footer-text {
+  background-color: #212121;
+}
+
+@media screen and (max-width:780px) {
+
+  /* Navigation Menu */
+  .site-logo {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-ul.show {
+    display: flex;
+  }
+}

@@ -1,43 +1,62 @@
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>GYMCAL - Your GOTO Fitness Calcuator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <title>GYMCAL</title>
 </head>
-
 <body>
-  <nav>
-    <h1 class="site-logo">GYMCAL</h1>
-    <button class="hamburger" id="hamburger"><img src="https://icon-library.com/images/menu-icon-white-png/menu-icon-white-png-11.jpg" id="menu-icon"></button>
-    <ul class="nav-ul" id="nav-ul">
-      <li class="nav-page"><a href="#">Home</a></li>
-      <li class="nav-page"><a href="fatpercentagecal.html">Fat %</a></li>
-      <li class="nav-page"><a href="ffmical.html">FFMI</a></li>
-      <li class="nav-page"><a href="ormcal.html">ORM</a></li>
-      <li class="nav-page"><a href="proteinintakecal.html">Protein</a></li>
-    </ul>
-  </nav>
-  <header>
-    <hr id="nav-accent">
-    <h1>Home</h1>
-    <br><br><br>
-    <p>
-      Welcome to GYMCAL! To calculate any sort of fitness related stat. please select from the menu given above.
-      <br>
-      Some of the calculators are currently in development, the only one available right now is the fat percentage calculator. The other calculators will be updated as soon as they are ready for use.
-    </p>
-  </header>
-  <main>
+    <header>
+        <h1>GYMCAL - Your GOTO Fitness Calculator</h1>
+    </header>
+    <main>
+        <div class="calculator-container">
+            <a href="fpcal.html"><h2>Fat Percentage Calculator</h2></a>
+            <p>The scientific term for body fat is "adipose tissue." 
+                Adipose tissue serves a number of important functions.
+                 Its primary purpose is to store lipids from which the
+                  body creates energy. In addition, it secretes a number
+                   of important hormones, and provides the body with some
+                    cushioning as well as insulation.</p>
+        </div>
+        <div class="calculator-container">
+            <a href="ffmical.html"><h2>FFMI Calculator</h2></a>
+            <p>FFMI is conceptually similar to Body Mass Index (BMI). But
+                 instead of measuring body mass in relation to height, it
+                  measures the amount of muscles (fat-free mass) relative
+                   to a person's height. This indicator accounts for the
+                    amount of total lean muscle mass in the body. Research
+                     also suggests it can predict how much muscle your body
+                      can potentially gain.</p>
+        </div>
+        <div class="calculator-container">
+            <a href="calorie.html"><h2>Caloric Intake Calculator</h2></a>
+            <p>
+                Many people seek to lose weight, and often the easiest way
+                 to do this is to consume fewer calories each day. But how
+                  many calories does the body actually need in order to be
+                   healthy? This largely depends on the amount of physical
+                    activity a person performs each day, and regardless of
+                     this, is different for all people – there are many
+                      different factors involved, not all of which are 
+                      well-understood or known.
+            </p>
+        </div>
+        <div class="calculator-container">
+            <a href="ormcal.html"><h2>One Rep Max Calculator</h2></a>
+            <p>
+                Repetition maximum is often expressed as 1RM or one-repetition maximum.
+                 This indicates the heaviest weight you can lift with maximum effort in
+                  a single repetition. A 1RM is your personal weightlifting record for
+                   a squat, deadlift, or any other weightlifting exercise.
+            </p>
+        </div>
+    </main>
+    <footer>
 
-  </main>
-  <footer>
-    <h5 class="footer-text">GITHUB Repository by Inderjit Singh</h5>
-    <h5 class="footer-text">Some of the calculators may not work as intended in some cases.</h5>
-  </footer>
-  <script src="app.js" charset="utf-8"></script>
+    </footer>
 </body>
-
 </html>
